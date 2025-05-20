@@ -1,4 +1,6 @@
-                                                             InterviewMe: A job interview preparation platform powered by Vapi AI Voice agents
+INTERVIEWME : A job interview preparation platform powered by Vapi AI Voice agents
+
+
 Interview Me is an AI-powered job interview preparation platform that helps users practice interviews with real-time AI voice agents, receive instant feedback, and improve their skills. Built with modern web technologies, it offers a smooth, interactive experience tailored for effective interview preparation.
 
 Introduction
