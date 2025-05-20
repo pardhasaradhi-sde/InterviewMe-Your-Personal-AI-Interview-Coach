@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+                                                             InterviewMe: A job interview preparation platform powered by Vapi AI Voice agents
+Interview Me is an AI-powered job interview preparation platform that helps users practice interviews with real-time AI voice agents, receive instant feedback, and improve their skills. Built with modern web technologies, it offers a smooth, interactive experience tailored for effective interview preparation.
 
-## Getting Started
+Introduction
+Interview Me uses Next.js for frontend and backend, Firebase for authentication and data storage, styled with Tailwind CSS, and powered by Vapi AI voice agents for dynamic interview simulations. The platform leverages AI models to generate questions, evaluate user responses, and provide actionable feedback based on the candidate’s resume and role preferences.
 
-First, run the development server:
+Tech Stack
+Next.js
+Firebase (Authentication & Database)
+Tailwind CSS
+Vapi AI (Voice Agents & Interview Logic)
+Google Gemini (AI Assistance)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Features
+User Authentication: Secure Sign Up / Sign In with Firebase email/password.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+AI-Powered Interviews: Generate and conduct interviews dynamically using Vapi voice agents.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Instant Feedback: Receive AI-generated, resume-based interview feedback.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Modern UI: Clean, responsive, and user-friendly interface.
 
-## Learn More
+Interview Dashboard: Manage and track past interviews easily.
 
-To learn more about Next.js, take a look at the following resources:
+Real-Time Transcripts: View live transcripts during interviews.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Code Highlights
+AI-driven interview question generation and feedback evaluation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Responsive UI built with Tailwind CSS
 
-## Deploy on Vercel
+Authentication and user management with Firebase
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Integration of voice agents via Vapi AI
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Clean project architecture for easy extension and maintenance
+
